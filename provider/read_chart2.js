@@ -177,6 +177,7 @@ var app = new Vue({
                 };
 
                 setTimeout(() => {
+                    console.log(data_country)
                     $("#chartContainer").CanvasJSChart(options);
                 }, 2000);
 
