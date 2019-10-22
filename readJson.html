@@ -37,7 +37,7 @@
 <body>
     <div id="app">
         <div class="container" style="padding: 20px;">
-            <button class="btn btn-primary" @click="actionJson">read Json</button>
+            <!-- <button class="btn btn-primary" @click="actionJson">read Json</button>
             <br>
 
             <div class="form-group">
@@ -46,7 +46,7 @@
             </div>
 
             <br>
-            <br>
+            <br> -->
 
             <table id="dtBasicExample" class="table table-striped">
                 <thead>
@@ -68,6 +68,8 @@
 <script src="./provider/read_json.js"></script>
 <script>
 $(document).ready( function () {
-    $('#dtBasicExample').DataTable();
+    setTimeout(() => {
+        $('#dtBasicExample').DataTable();
+    }, 1000);
 } );
 </script>

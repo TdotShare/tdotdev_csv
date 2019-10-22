@@ -135,6 +135,6 @@ var app = new Vue({
         },
     },
     beforeMount() {
-        //this.actionJson()
+        this.actionJson()
     },
 })
